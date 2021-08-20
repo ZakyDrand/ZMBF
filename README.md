@@ -1,4 +1,4 @@
-#### => Cara Install
+#### Cara Install Script
 ```
 $ pkg update && upgrade  
 $ pip install mechanize  
