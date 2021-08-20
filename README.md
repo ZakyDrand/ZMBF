@@ -1,5 +1,11 @@
 ####    Cara Install Script
 ```
+Jika ingin membeli apikey bisa lewat script atau wa 082329761867
+```
+
+
+####    Cara Install Script
+```
 $ pkg update && upgrade  
 $ pip install mechanize  
 $ pkg install python git
