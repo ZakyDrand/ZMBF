@@ -1,4 +1,4 @@
-#### ⇨  Install Script Di Termux
+#### => Cara Install
 ```
 $ pkg update && upgrade  
 $ pip install mechanize  
