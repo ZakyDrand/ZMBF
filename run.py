@@ -1,4 +1,13 @@
-import os,sys
+import sys, os, subprocess
 
-os.system("git pull")
-print(" [*] script saat ini sedang maintenance \n [*] silahkan gunakan script sementara \n [*] untuk script sementara silahkan hubungin wa saya \n [*] wa : 082329761867")
+
+if sys.version[0:3] != "3.9":
+  sys.exit("[!] Anda harus menggunakan versi python 3.9, versi python anda sekarang : "+sys.version[0:3])
+
+if __name__ == "__main__":
+  try:
+    os.system("git pull")
+    __import__("zmbf").cek()
+  except Exception:
+      os.system("git pull")
+      __import__("zmbf").cek()
