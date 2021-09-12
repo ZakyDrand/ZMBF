@@ -1,16 +1,14 @@
-####    Cara Membeli 
-
-Jika ingin membeli apikey bisa lewat script atau wa 082329761867
-
-
-####    Cara Install Script
+#### Install script on Termux
+```bash
+$ pkg update && pkg upgrade
+$ pkg install python2
+$ pkg install git
+$ pip2 install requests bs4
+$ pip2 install futures
+$ git clone https://github.com/Fall-Xavier/xavier
 ```
-$ pkg update && upgrade  
-$ pip install mechanize  
-$ pkg install python git
-$ pip install requests bs4 futures
-$ rm -rf ZMBF
-$ git clone https://github.com/Fall-Xavier/ZMBF
-$ cd ZMBF
-$ python run.py
+#### Run script
+```bash
+$ cd xavier
+$ python2 run.py
 ```
